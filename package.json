@@ -1,6 +1,6 @@
 {
   "name": "capacitor-cache-file",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Capacitor plugin that enables caching of files of any type. It checks if a file is already cached and returns it if available; otherwise, it downloads the file, saves it to the cache, and returns the path to the saved file. The plugin also prevents duplication when the same URL is requested multiple times.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -27,7 +27,19 @@
   "keywords": [
     "capacitor",
     "plugin",
-    "native"
+    "native",
+    "file cache",
+    "offline access",
+    "cache files",
+    "offline mode",
+    "media caching",
+    "performance",
+    "capacitor offline",
+    "capacitor cache",
+    "mobile caching",
+    "cache images",
+    "cache videos",
+    "offline media"
   ],
   "scripts": {
     "verify": "npm run verify:ios && npm run verify:android && npm run verify:web",
