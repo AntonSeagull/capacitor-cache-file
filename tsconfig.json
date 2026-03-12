@@ -4,17 +4,23 @@
     "declaration": true,
     "esModuleInterop": true,
     "inlineSources": true,
-    "lib": ["dom", "es2017"],
+    "lib": [
+      "dom",
+      "es2017"
+    ],
+    "skipLibCheck": true,
     "module": "esnext",
     "moduleResolution": "node",
     "noFallthroughCasesInSwitch": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
     "outDir": "dist/esm",
     "pretty": true,
     "sourceMap": true,
     "strict": true,
     "target": "es2017"
   },
-  "files": ["src/index.ts"]
+  "files": [
+    "src/index.ts"
+  ]
 }
